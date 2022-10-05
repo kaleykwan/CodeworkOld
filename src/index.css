@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter&family=Jost:wght@700&family=Montserrat:wght@500&family=Roboto:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter&family=Jost:wght@700&family=Lexend:wght@500&family=Montserrat:wght@500&family=Roboto:wght@900&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -67,22 +66,22 @@ code {
   gap: 6px;
   color: whitesmoke;
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .post-text {
-  padding: 10px;
   padding-left: 0px;
   margin: 15px;
   border-radius: 15px;
-  color: white;
-  font-family: 'Inter', sans-serif;
+  color: whitesmoke;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .UserInfo-username {
-  color: whitesmoke;
+  color: silver;
 }
 
 .UserInfo-name {
@@ -91,7 +90,8 @@ code {
 
 .UserInfo-date {
   font-size: 12px;
-  color: white;
+  font-weight: 500;
+  color: silver;
 }
 
 .tags {
@@ -108,8 +108,9 @@ code {
   margin-bottom: 15px;
   border-radius: 15px;
   color: white;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   border: none;
+  font-weight: 500;
 }
 
 .PostActions {
@@ -145,7 +146,7 @@ code {
 .LoopsForYou-text {
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Lexend', sans-serif;
   padding: 15px;
   padding-left: 4px;
   padding-top: 0px;
@@ -158,13 +159,15 @@ code {
 
 .sidebar-loop {
   background: #4b465c5e;
-  padding: 8px;
+  padding: 9px;
   margin-bottom: 8px;
   border-radius: 15px;
   color: white;
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 18px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
   border: none;
+  text-align: left;
 }
 
 /* Codework With Me */
@@ -187,7 +190,7 @@ code {
 .CodeworkWithMe-text {
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Lexend', sans-serif;
   padding: 15px;
   padding-left: 4px;
   padding-top: 0px;
@@ -215,6 +218,7 @@ code {
 .SuggestedUser-content {
   display: flex;
   flex-flow: row;
+  font-weight: 500;
 }
 
 .suggested-user-info {
@@ -223,9 +227,8 @@ code {
   gap: 10px;
 }
 
-.SuggestedUser-name {
-  font-size: 16px;
-  font-weight: 500;
+.SuggestedUser-username {
+  color: silver;
 }
 
 /* Left Sidebar */ 
@@ -268,6 +271,7 @@ code {
   text-align: center;
   color: white;
   font-size: 13px;
+  font-weight: 500;
 }
 
 .ProfileThumbnail-UserStats {
@@ -287,6 +291,11 @@ code {
 
 .UserStats-Count {
   text-align: center;
+  font-weight: 500;
+}
+
+.UserStats-Label {
+  font-weight: 500;
 }
 
 .ProfileThumbnail-LinkButton {
@@ -324,8 +333,8 @@ code {
   margin-bottom: 15px;
   border-radius: 15px;
   color: white;
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 18px;
+  font-family: 'Lexend', sans-serif;
+  font-size: 20px;
   border: none;
 }
 

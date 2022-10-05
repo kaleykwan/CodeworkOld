@@ -178,7 +178,6 @@ function LoopsForYou(props) {
 function SuggestedUser(props) {
   return (
     <div className="SuggestedUser-content">
-      <div className="SuggestedUser-users">
         <div className="SuggestedUser-text">
           <div className="SuggestedUser-name">
             {props.user.name}
@@ -187,7 +186,6 @@ function SuggestedUser(props) {
             {props.user.username}
           </div>
         </div>
-      </div>
     </div>
   );
 }
